@@ -1,0 +1,52 @@
+@font-face {
+  font-family: SourceSansPro;
+  src: url("./fonts/SourceSansPro-Regular.otf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: SourceSansPro;
+}
+
+.row {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 48px;
+  color: #fff;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 36px;
+  color: #4c4c51;
+}
+
+p {
+  font-size: 22px;
+  line-height: 28px;
+  color: #4c4c51;
+}
+
+a {
+  text-decoration: none;
+  color: #88939e;
+  line-height: 28px;
+}
+
+a:hover {
+  color: #4c4c51;
+}
+
+li {
+  list-style-type: none;
+}
+
+hr {
+  border: 1px solid #e8e8e8;
+}

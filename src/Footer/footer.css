@@ -1,0 +1,33 @@
+@font-face {
+  font-family: SourceSansProBold;
+  src: url("../fonts/SourceSansPro-Bold.otf");
+}
+
+.footertop {
+  display: flex;
+  list-style-type: none;
+  margin-bottom: 40px;
+}
+
+.fakesite-links {
+  margin-right: 200px;
+  margin-bottom: 40px;
+}
+
+.footertop div {
+  color: #ee2d1c;
+  font-family: SourceSansProBold;
+}
+
+.footerbottom {
+  margin-top: 22px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 22px;
+}
+
+.footerbottom a {
+  margin-right: 22px;
+  margin-bottom: 100px;
+}
+

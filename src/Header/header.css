@@ -1,0 +1,44 @@
+.header {
+  background-image: url("../assets/hero-image.png");
+  height: 625px;
+}
+
+.headertop {
+  padding-top: 22px;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.headertop-text {
+  word-spacing: 44px;
+}
+
+.headertop-links a {
+  color: #fff;
+  margin-right: 44px;
+}
+
+.headerbottom {
+  text-align: center;
+  margin-top: 140px;
+  color: #fff;
+}
+
+.headerbottom-paragraph {
+  margin-top: 22px;
+  margin-bottom: 22px;
+  color: #fff;
+}
+
+.headerbottom-button {
+  background-color: #ee2d1c;
+  min-height: 55px;
+  color: #fff;
+  font-size: 22px;
+  border-radius: 25px;
+  text-align: center;
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+}
