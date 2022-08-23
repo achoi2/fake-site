@@ -8,7 +8,7 @@ function VideoTop() {
         <div key={video.id} className="videotop">
           <div className="videotop-text">
             <h2>{video.title}</h2>
-            <p>{video.description}</p>
+            <p dangerouslySetInnerHTML={{__html: video.description}}></p>
           </div>
           <div className="videotop-video">
             <div
